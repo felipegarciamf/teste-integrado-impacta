@@ -1,0 +1,3376 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91667600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user would like to see all json placeholder",
+            "match": {
+              "location": "CrudJsonPlaceHolderSteps.userWouldLikeToSeeAllPlaceholder()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User save a register with post",
+        "description": "",
+        "id": "json-placeholder-crud;user-save-a-register-with-post",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2440600000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on find button",
+            "match": {
+              "location": "CrudJsonPlaceHolderSteps.userClicksOnFindButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7728900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should see \"success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 44800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user would like to see all json placeholder",
+            "match": {
+              "location": "CrudJsonPlaceHolderSteps.userWouldLikeToSeeAllPlaceholder()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "User save a register with post",
+        "description": "",
+        "id": "json-placeholder-crud;user-save-a-register-with-post;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 159109600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on find button",
+            "match": {
+              "location": "CrudJsonPlaceHolderSteps.userClicksOnFindButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should see \"success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Json Placeholder CRUD",
+    "description": "",
+    "id": "json-placeholder-crud",
+    "keyword": "Feature",
+    "uri": "jsonPlaceHolder/crudJsonPlaceHolder.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Cenario de Fundo",
+        "steps": [
+          {
+            "result": {
+              "duration": 3105800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário está na página de processos",
+            "match": {
+              "location": "CrudProcessosSteps.queOUsuarioEstaNaPaginaDeProcessos()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Simples POST",
+        "description": "",
+        "id": "realizando-um-simples-crud-na-classe-de-processo;simples-post",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 226300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuário coloca no campo \"vara\" o valor \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 27
+                },
+                {
+                  "val": "4",
+                  "offset": 42
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 59800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuário coloca no campo \"numero_processo\" o valor \"7823543\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 27
+                },
+                {
+                  "val": "7823543",
+                  "offset": 53
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 52500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuário coloca no campo \"natureza\" o valor \"Guarda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 27
+                },
+                {
+                  "val": "Guarda",
+                  "offset": 46
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 52400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário coloca no campo \"partes\" o valor \"Alberto x Alberta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 27
+                },
+                {
+                  "val": "Alberto x Alberta",
+                  "offset": 44
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 57500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuário coloca no campo \"urgente\" o valor \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 27
+                },
+                {
+                  "val": "S",
+                  "offset": 45
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 64800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuário coloca no campo \"arbitramento\" o valor \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 27
+                },
+                {
+                  "val": "N",
+                  "offset": 50
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 31300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuário coloca no campo \"assistente_social\" o valor \"Dayane Moreira\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente_social",
+                  "offset": 27
+                },
+                {
+                  "val": "Dayane Moreira",
+                  "offset": 55
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 27600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário coloca no campo \"data_entrada\" o valor \"2020-02-12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 27
+                },
+                {
+                  "val": "2020-02-12",
+                  "offset": 50
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 30000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuário coloca no campo \"data_saida\" o valor \"2020-02-20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_saida",
+                  "offset": 27
+                },
+                {
+                  "val": "2020-02-20",
+                  "offset": 48
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 49900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o usuário coloca no campo \"data_agendamento\" o valor \"2020-02-13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_agendamento",
+                  "offset": 27
+                },
+                {
+                  "val": "2020-02-13",
+                  "offset": 54
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 54700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "o usuário coloca no campo \"status\" o valor \"Aguardando\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 27
+                },
+                {
+                  "val": "Aguardando",
+                  "offset": 44
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 46100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "o usuário coloca no campo \"observacao\" o valor \"Nada a Declarar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "observacao",
+                  "offset": 27
+                },
+                {
+                  "val": "Nada a Declarar",
+                  "offset": 48
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1079438800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "o usuário selecionar o botao salvar",
+            "match": {
+              "location": "CrudProcessosSteps.oUsuarioClicarEmSalvar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 99300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "o usuário deve ver uma mensagem de \"salvo com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "salvo com sucesso",
+                  "offset": 36
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioDeveriaReceberUmaMensagemDe(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 6564000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "o usuário deve visualizar campo \"vara\"com o valor \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 33
+                },
+                {
+                  "val": "4",
+                  "offset": 51
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuárioDeveVerOCampoComOValor(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Cenario de Fundo",
+        "steps": [
+          {
+            "result": {
+              "duration": 35700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário está na página de processos",
+            "match": {
+              "location": "CrudProcessosSteps.queOUsuarioEstaNaPaginaDeProcessos()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Cenário: Simples GET com todos os campos",
+        "description": "",
+        "id": "realizando-um-simples-crud-na-classe-de-processo;cenário:-simples-get-com-todos-os-campos;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 444600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "o usuário gostaria de visualizar o processo com o id 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 53
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuárioGostariaDeVisualizarOProcessoComOId(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 346478000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "o usuário selecionar o botao visualizar",
+            "match": {
+              "location": "CrudProcessosSteps.oUsuárioClicarEmVisualizar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 57900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "o usuário deve ver uma mensagem de \"sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sucesso",
+                  "offset": 36
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioDeveriaReceberUmaMensagemDe(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Cenario de Fundo",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário está na página de processos",
+            "match": {
+              "location": "CrudProcessosSteps.queOUsuarioEstaNaPaginaDeProcessos()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Cenário: Simples GET com todos os campos",
+        "description": "",
+        "id": "realizando-um-simples-crud-na-classe-de-processo;cenário:-simples-get-com-todos-os-campos;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 70700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "o usuário gostaria de visualizar o processo com o id 666",
+            "match": {
+              "arguments": [
+                {
+                  "val": "666",
+                  "offset": 53
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuárioGostariaDeVisualizarOProcessoComOId(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 329315700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "o usuário selecionar o botao visualizar",
+            "match": {
+              "location": "CrudProcessosSteps.oUsuárioClicarEmVisualizar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 52200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "o usuário deve ver uma mensagem de \"nao encontrado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nao encontrado",
+                  "offset": 36
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioDeveriaReceberUmaMensagemDe(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Cenario de Fundo",
+        "steps": [
+          {
+            "result": {
+              "duration": 13300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário está na página de processos",
+            "match": {
+              "location": "CrudProcessosSteps.queOUsuarioEstaNaPaginaDeProcessos()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Cenário: Simples PUT com todos os campos",
+        "description": "",
+        "id": "realizando-um-simples-crud-na-classe-de-processo;cenário:-simples-put-com-todos-os-campos",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 48000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "o usuário gostaria de visualizar o processo com o id 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 53
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuárioGostariaDeVisualizarOProcessoComOId(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 43400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "o usuário coloca no campo \"vara\" o valor \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 27
+                },
+                {
+                  "val": "8",
+                  "offset": 42
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 34300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "o usuário coloca no campo \"numero_processo\" o valor \"7823543\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 27
+                },
+                {
+                  "val": "7823543",
+                  "offset": 53
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 26900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "o usuário coloca no campo \"natureza\" o valor \"Guarda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 27
+                },
+                {
+                  "val": "Guarda",
+                  "offset": 46
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 201200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "o usuário coloca no campo \"partes\" o valor \"Alberto x Alberta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 27
+                },
+                {
+                  "val": "Alberto x Alberta",
+                  "offset": 44
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 45900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "o usuário coloca no campo \"urgente\" o valor \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 27
+                },
+                {
+                  "val": "S",
+                  "offset": 45
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 22300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "o usuário coloca no campo \"arbitramento\" o valor \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 27
+                },
+                {
+                  "val": "N",
+                  "offset": 50
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 21700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "o usuário coloca no campo \"assistente_social\" o valor \"Dayane Moreira\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente_social",
+                  "offset": 27
+                },
+                {
+                  "val": "Dayane Moreira",
+                  "offset": 55
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 152000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "o usuário coloca no campo \"data_entrada\" o valor \"2020-02-12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 27
+                },
+                {
+                  "val": "2020-02-12",
+                  "offset": 50
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 46900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "o usuário coloca no campo \"data_saida\" o valor \"2020-02-20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_saida",
+                  "offset": 27
+                },
+                {
+                  "val": "2020-02-20",
+                  "offset": 48
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 44900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "o usuário coloca no campo \"data_agendamento\" o valor \"2020-02-13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_agendamento",
+                  "offset": 27
+                },
+                {
+                  "val": "2020-02-13",
+                  "offset": 54
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "o usuário coloca no campo \"status\" o valor \"Aguardando\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 27
+                },
+                {
+                  "val": "Aguardando",
+                  "offset": 44
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 79600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "o usuário coloca no campo \"observacao\" o valor \"Nada a Declarar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "observacao",
+                  "offset": 27
+                },
+                {
+                  "val": "Nada a Declarar",
+                  "offset": 48
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 339189700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "o usuário selecionar o botao atualizar",
+            "match": {
+              "location": "CrudProcessosSteps.oUsuárioClicarEmAtualizar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 82600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "o usuário deve ver uma mensagem de \"sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sucesso",
+                  "offset": 36
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioDeveriaReceberUmaMensagemDe(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 8347000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "o usuário deve visualizar campo \"vara\"com o valor \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 33
+                },
+                {
+                  "val": "8",
+                  "offset": 51
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuárioDeveVerOCampoComOValor(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Cenario de Fundo",
+        "steps": [
+          {
+            "result": {
+              "duration": 27700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário está na página de processos",
+            "match": {
+              "location": "CrudProcessosSteps.queOUsuarioEstaNaPaginaDeProcessos()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Cenário: Simples DELETE",
+        "description": "",
+        "id": "realizando-um-simples-crud-na-classe-de-processo;cenário:-simples-delete",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 149300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "o usuário coloca no campo \"vara\" o valor \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 27
+                },
+                {
+                  "val": "4",
+                  "offset": 42
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 49300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "o usuário coloca no campo \"numero_processo\" o valor \"7823543\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 27
+                },
+                {
+                  "val": "7823543",
+                  "offset": 53
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 30200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "o usuário coloca no campo \"natureza\" o valor \"Guarda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 27
+                },
+                {
+                  "val": "Guarda",
+                  "offset": 46
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 21300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "o usuário coloca no campo \"partes\" o valor \"Alberto x Alberta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 27
+                },
+                {
+                  "val": "Alberto x Alberta",
+                  "offset": 44
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 22200,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "o usuário coloca no campo \"urgente\" o valor \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 27
+                },
+                {
+                  "val": "S",
+                  "offset": 45
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 19800,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "o usuário coloca no campo \"arbitramento\" o valor \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 27
+                },
+                {
+                  "val": "N",
+                  "offset": 50
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 20400,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "o usuário coloca no campo \"assistente_social\" o valor \"Dayane Moreira\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente_social",
+                  "offset": 27
+                },
+                {
+                  "val": "Dayane Moreira",
+                  "offset": 55
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 20900,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "o usuário coloca no campo \"data_entrada\" o valor \"2020-02-12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 27
+                },
+                {
+                  "val": "2020-02-12",
+                  "offset": 50
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 21500,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "o usuário coloca no campo \"data_saida\" o valor \"2020-02-20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_saida",
+                  "offset": 27
+                },
+                {
+                  "val": "2020-02-20",
+                  "offset": 48
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 25800,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "o usuário coloca no campo \"data_agendamento\" o valor \"2020-02-13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_agendamento",
+                  "offset": 27
+                },
+                {
+                  "val": "2020-02-13",
+                  "offset": 54
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 22500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "o usuário coloca no campo \"status\" o valor \"Aguardando\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 27
+                },
+                {
+                  "val": "Aguardando",
+                  "offset": 44
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 20700,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "o usuário coloca no campo \"observacao\" o valor \"Nada a Declarar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "observacao",
+                  "offset": 27
+                },
+                {
+                  "val": "Nada a Declarar",
+                  "offset": 48
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioInformaNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 344527900,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "o usuário selecionar o botao salvar",
+            "match": {
+              "location": "CrudProcessosSteps.oUsuarioClicarEmSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 334096100,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "o usuário selecionar o botao apagar",
+            "match": {
+              "location": "CrudProcessosSteps.oUsuárioClicarEmApagar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 78000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "o usuário deve ver uma mensagem de \"sem conteudo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sem conteudo",
+                  "offset": 36
+                }
+              ],
+              "location": "CrudProcessosSteps.oUsuarioDeveriaReceberUmaMensagemDe(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Realizando um simples CRUD na classe de processo",
+    "description": "",
+    "id": "realizando-um-simples-crud-na-classe-de-processo",
+    "keyword": "Funcionalidade",
+    "uri": "processos/crudProcessos.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User would like to see information about Luke Skywalker",
+        "description": "",
+        "id": "example-cucumber-with-star-wars-people;user-would-like-to-see-information-about-luke-skywalker",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 820800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user would like to see people number 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 37
+                }
+              ],
+              "location": "StarWarsPeopleSteps.userWouldLikeToSeeAllPlaceholder(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3717785100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on find people button into Star Wars series",
+            "match": {
+              "location": "StarWarsPeopleSteps.userClicksOnFindButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see \"success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8469000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see name with value \"Luke Skywalker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name",
+                  "offset": 16
+                },
+                {
+                  "val": "Luke Skywalker",
+                  "offset": 33
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeLoginWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10691500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should see hair_color with value \"blond\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hair_color",
+                  "offset": 16
+                },
+                {
+                  "val": "blond",
+                  "offset": 39
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeLoginWithValue(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "User would like to see information about Luke Skywalker with table",
+        "description": "",
+        "id": "example-cucumber-with-star-wars-people;user-would-like-to-see-information-about-luke-skywalker-with-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user would like to see people number 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 37
+                }
+              ],
+              "location": "StarWarsPeopleSteps.userWouldLikeToSeeAllPlaceholder(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3102872000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on find people button into Star Wars series",
+            "match": {
+              "location": "StarWarsPeopleSteps.userClicksOnFindButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14479300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should see fields below:",
+            "match": {
+              "location": "GeneralSteps.userShouldSeeFieldsBelow(String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Luke Skywalker"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "hair_color",
+                  "blond"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should see \"success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User would like to see status codes ok and not ok.",
+        "description": "",
+        "id": "example-cucumber-with-star-wars-people;user-would-like-to-see-status-codes-ok-and-not-ok.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user would like to see people number 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 37
+                }
+              ],
+              "location": "StarWarsPeopleSteps.userWouldLikeToSeeAllPlaceholder(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1826172700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on find people button into Star Wars series",
+            "match": {
+              "location": "StarWarsPeopleSteps.userClicksOnFindButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should see \"success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "User would like to see status codes ok and not ok.",
+        "description": "",
+        "id": "example-cucumber-with-star-wars-people;user-would-like-to-see-status-codes-ok-and-not-ok.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 79700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user would like to see people number 12317673",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12317673",
+                  "offset": 37
+                }
+              ],
+              "location": "StarWarsPeopleSteps.userWouldLikeToSeeAllPlaceholder(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2927490300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on find people button into Star Wars series",
+            "match": {
+              "location": "StarWarsPeopleSteps.userClicksOnFindButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should see \"not found\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "not found",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Example cucumber with Star Wars People",
+    "description": "",
+    "id": "example-cucumber-with-star-wars-people",
+    "keyword": "Feature",
+    "uri": "starWars/star_wars_people.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User save a register with post",
+        "description": "",
+        "id": "user-crud;user-save-a-register-with-post",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 524300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user would like to save a user",
+            "match": {
+              "location": "CrudUserSteps.userWouldLikeToSaveAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user informs login with value equal \"stellaagapito\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 13
+                },
+                {
+                  "val": "stellaagapito",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user informs full_name with value equal \"Stella da Silva Agapito Correa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 13
+                },
+                {
+                  "val": "Stella da Silva Agapito Correa",
+                  "offset": 41
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user informs email with value equal \"stella.agapito@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 13
+                },
+                {
+                  "val": "stella.agapito@gmail.com",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user informs age with value equal \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "age",
+                  "offset": 13
+                },
+                {
+                  "val": "7",
+                  "offset": 35
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 335313400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnSaveButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see \"save with success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "save with success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "User show a register with get",
+        "description": "",
+        "id": "user-crud;user-show-a-register-with-get",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user would like to save a user",
+            "match": {
+              "location": "CrudUserSteps.userWouldLikeToSaveAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 203400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user informs login with value equal \"bugluna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 13
+                },
+                {
+                  "val": "bugluna",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user informs full_name with value equal \"Bug Luna Agapito Correa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 13
+                },
+                {
+                  "val": "Bug Luna Agapito Correa",
+                  "offset": 41
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user informs email with value equal \"bug.luna@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 13
+                },
+                {
+                  "val": "bug.luna@gmail.com",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user informs age with value equal \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "age",
+                  "offset": 13
+                },
+                {
+                  "val": "8",
+                  "offset": 35
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 339106000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnSaveButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 333376300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user wants to see user information",
+            "match": {
+              "location": "CrudUserSteps.userWantsToSeeUserInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should see \"success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7752000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should see login with value \"bugluna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 16
+                },
+                {
+                  "val": "bugluna",
+                  "offset": 34
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeLoginWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5702000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should see full_name with value \"Bug Luna Agapito Correa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 16
+                },
+                {
+                  "val": "Bug Luna Agapito Correa",
+                  "offset": 38
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeLoginWithValue(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "User update a register with put",
+        "description": "",
+        "id": "user-crud;user-update-a-register-with-put",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user would like to save a user",
+            "match": {
+              "location": "CrudUserSteps.userWouldLikeToSaveAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user informs login with value equal \"bugluna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 13
+                },
+                {
+                  "val": "bugluna",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user informs full_name with value equal \"Bug Luna Agapito Correa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 13
+                },
+                {
+                  "val": "Bug Luna Agapito Correa",
+                  "offset": 41
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user informs email with value equal \"bug.luna@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 13
+                },
+                {
+                  "val": "bug.luna@gmail.com",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user informs age with value equal \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "age",
+                  "offset": 13
+                },
+                {
+                  "val": "8",
+                  "offset": 35
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 351260300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnSaveButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user informs login with value equal \"bugluna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 13
+                },
+                {
+                  "val": "bugluna",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user informs full_name with value equal \"Bug Luna da Silva Agapito Correa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 13
+                },
+                {
+                  "val": "Bug Luna da Silva Agapito Correa",
+                  "offset": 41
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user informs email with value equal \"bug.luna@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 13
+                },
+                {
+                  "val": "bug.luna@gmail.com",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 307700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user informs age with value equal \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "age",
+                  "offset": 13
+                },
+                {
+                  "val": "8",
+                  "offset": 35
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 351677400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks on save button again",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnSaveButtonAgain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329073000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user wants to see user information",
+            "match": {
+              "location": "CrudUserSteps.userWantsToSeeUserInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user should see \"success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5298200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user should see full_name with value \"Bug Luna da Silva Agapito Correa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 16
+                },
+                {
+                  "val": "Bug Luna da Silva Agapito Correa",
+                  "offset": 38
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeLoginWithValue(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "User delete a register with delete",
+        "description": "",
+        "id": "user-crud;user-delete-a-register-with-delete",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user would like to save a user",
+            "match": {
+              "location": "CrudUserSteps.userWouldLikeToSaveAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user informs login with value equal \"Toti\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 13
+                },
+                {
+                  "val": "Toti",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user informs full_name with value equal \"Toti Agapito Correa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 13
+                },
+                {
+                  "val": "Toti Agapito Correa",
+                  "offset": 41
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user informs email with value equal \"toti@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 13
+                },
+                {
+                  "val": "toti@gmail.com",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user informs age with value equal \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "age",
+                  "offset": 13
+                },
+                {
+                  "val": "10",
+                  "offset": 35
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333953200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnSaveButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 334279100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user clicks on delete button",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnDeleteButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user should see \"no content\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "no content",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 50,
+        "name": "User update a register with patch",
+        "description": "",
+        "id": "user-crud;user-update-a-register-with-patch",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user would like to save a user",
+            "match": {
+              "location": "CrudUserSteps.userWouldLikeToSaveAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user informs login with value equal \"bugluna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 13
+                },
+                {
+                  "val": "bugluna",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20900,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user informs full_name with value equal \"Bug Luna Agapito Correa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 13
+                },
+                {
+                  "val": "Bug Luna Agapito Correa",
+                  "offset": 41
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user informs email with value equal \"bug.luna@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 13
+                },
+                {
+                  "val": "bug.luna@gmail.com",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user informs age with value equal \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "age",
+                  "offset": 13
+                },
+                {
+                  "val": "8",
+                  "offset": 35
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 342383900,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnSaveButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user informs full_name with value equal \"Bug Luna da Silva Agapito Correa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 13
+                },
+                {
+                  "val": "Bug Luna da Silva Agapito Correa",
+                  "offset": 41
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 335511000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user clicks on save button with only one change",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnSaveButtonWithOnlyOneChang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324109900,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user wants to see user information",
+            "match": {
+              "location": "CrudUserSteps.userWantsToSeeUserInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55900,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user should see \"success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5228400,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user should see full_name with value \"Bug Luna da Silva Agapito Correa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 16
+                },
+                {
+                  "val": "Bug Luna da Silva Agapito Correa",
+                  "offset": 38
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeLoginWithValue(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "User CRUD",
+    "description": "",
+    "id": "user-crud",
+    "keyword": "Feature",
+    "uri": "user/crudUser.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Gravar um usuário",
+        "description": "",
+        "id": "testes-da-impacta;gravar-um-usuário",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user would like to save a user",
+            "match": {
+              "location": "CrudUserSteps.userWouldLikeToSaveAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user informs login with value equal \"JoanaDark1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 13
+                },
+                {
+                  "val": "JoanaDark1",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user informs age with value equal \"22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "age",
+                  "offset": 13
+                },
+                {
+                  "val": "22",
+                  "offset": 35
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user informs full_name with value equal \"Joana Dark\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 13
+                },
+                {
+                  "val": "Joana Dark",
+                  "offset": 41
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user informs email with value equal \"joana@impacta.com.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 13
+                },
+                {
+                  "val": "joana@impacta.com.br",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341029600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnSaveButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see \"save with success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "save with success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 328863600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user wants to see user information",
+            "match": {
+              "location": "CrudUserSteps.userWantsToSeeUserInformation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should see \"success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4553600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should see login with value \"JoanaDark1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 16
+                },
+                {
+                  "val": "JoanaDark1",
+                  "offset": 34
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeLoginWithValue(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "User update a register with put",
+        "description": "",
+        "id": "testes-da-impacta;user-update-a-register-with-put",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user would like to save a user",
+            "match": {
+              "location": "CrudUserSteps.userWouldLikeToSaveAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user informs login with value equal \"bugluna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 13
+                },
+                {
+                  "val": "bugluna",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user informs full_name with value equal \"Bug Luna Agapito Correa2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 13
+                },
+                {
+                  "val": "Bug Luna Agapito Correa2",
+                  "offset": 41
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user informs email with value equal \"bug.luna@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 13
+                },
+                {
+                  "val": "bug.luna@gmail.com",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user informs age with value equal \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "age",
+                  "offset": 13
+                },
+                {
+                  "val": "8",
+                  "offset": 35
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340374400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnSaveButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user informs login with value equal \"bugluna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 13
+                },
+                {
+                  "val": "bugluna",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user informs full_name with value equal \"Bug Luna da Silva Agapito Correa2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 13
+                },
+                {
+                  "val": "Bug Luna da Silva Agapito Correa2",
+                  "offset": 41
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user informs email with value equal \"bug.luna@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 13
+                },
+                {
+                  "val": "bug.luna@gmail.com",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user informs age with value equal \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "age",
+                  "offset": 13
+                },
+                {
+                  "val": "7",
+                  "offset": 35
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348659800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on save button again",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnSaveButtonAgain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 337029100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user wants to see user information",
+            "match": {
+              "location": "CrudUserSteps.userWantsToSeeUserInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user should see \"success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5705700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user should see full_name with value \"Bug Luna da Silva Agapito Correa2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 16
+                },
+                {
+                  "val": "Bug Luna da Silva Agapito Correa2",
+                  "offset": 38
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeLoginWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328296600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on delete button",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnDeleteButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user should see \"no content\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "no content",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "User update a register with put and delete",
+        "description": "",
+        "id": "testes-da-impacta;user-update-a-register-with-put-and-delete",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user would like to save a user",
+            "match": {
+              "location": "CrudUserSteps.userWouldLikeToSaveAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user informs login with value equal \"teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 13
+                },
+                {
+                  "val": "teste",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user informs full_name with value equal \"teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "full_name",
+                  "offset": 13
+                },
+                {
+                  "val": "teste",
+                  "offset": 41
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user informs email with value equal \"teste@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 13
+                },
+                {
+                  "val": "teste@gmail.com",
+                  "offset": 37
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user informs age with value equal \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "age",
+                  "offset": 13
+                },
+                {
+                  "val": "8",
+                  "offset": 35
+                }
+              ],
+              "location": "CrudUserSteps.userInformsNameWithValueEqual(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 357119400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnSaveButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 216900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user should see \"save with success\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "save with success",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4224600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user should see login with value \"teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 16
+                },
+                {
+                  "val": "teste",
+                  "offset": 34
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeLoginWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330846300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user clicks on delete button",
+            "match": {
+              "location": "CrudUserSteps.userClicksOnDeleteButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user should see \"no content\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "no content",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testes da impacta",
+    "description": "",
+    "id": "testes-da-impacta",
+    "keyword": "Feature",
+    "uri": "user/impactaUser.feature"
+  }
+]
