@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="24.03" tests="183" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="36.152" tests="183" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
     <property name="java.vm.version" value="25.191-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Documents\faculdadeimpacta\testing-integration\testing_java"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\projeto\teste-integrado-impacta"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Documents\faculdadeimpacta\testing-integration\testing_java"/>
+    <property name="user.dir" value="C:\projeto\teste-integrado-impacta"/>
     <property name="java.runtime.version" value="1.8.0_191-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="E:\JAVA\WorkspaceProjeto\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3800831096191164426.tmp"/>
+    <property name="classworlds.conf" value="E:\JAVA\WorkspaceProjeto\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6554646418373964324.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\HashiCorp\Vagrant\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Gradle\gradle-5.6.3\bin;$ANDROID_HOME%\tools\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\drivers;C:\Users\silas\.windows-build-tools\python27\;C:\Users\silas\AppData\Local\Microsoft\WindowsApps;C:\Users\silas\AppData\Roaming\npm;C:\Users\silas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\silas\AppData\Local\Microsoft\WindowsApps;C:\Users\silas\AppData\Local\Programs\Fiddler;C:\Users\silas\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\heroku\bin;C:\Users\silas\Documents\apache-maven-3.6.3\bin;;C:\WINDOWS\system32;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\HashiCorp\Vagrant\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Gradle\gradle-5.6.3\bin;$ANDROID_HOME%\tools\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\drivers;C:\Users\silas\.windows-build-tools\python27\;C:\Users\silas\AppData\Local\Microsoft\WindowsApps;C:\Users\silas\AppData\Roaming\npm;C:\Users\silas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\silas\AppData\Local\Microsoft\WindowsApps;C:\Users\silas\AppData\Local\Programs\Fiddler;C:\Users\silas\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\heroku\bin;C:\Users\silas\Documents\apache-maven-3.6.3\bin;;C:\WINDOWS\System32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Documents\faculdadeimpacta\testing-integration\testing_java\EMBEDDED"/>
+    <property name="maven.home" value="C:\projeto\teste-integrado-impacta\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -76,7 +76,7 @@
   <testcase name="E o usuário coloca no campo &quot;partes&quot; o valor &quot;Alberto x Alberta&quot;" classname="Cenário: Simples POST" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;urgente&quot; o valor &quot;S&quot;" classname="Cenário: Simples POST" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;arbitramento&quot; o valor &quot;N&quot;" classname="Cenário: Simples POST" time="0"/>
-  <testcase name="E o usuário coloca no campo &quot;assistente_social&quot; o valor &quot;Dayane Moreira&quot;" classname="Cenário: Simples POST" time="0"/>
+  <testcase name="E o usuário coloca no campo &quot;assistente_social&quot; o valor &quot;Silas Felipe Garcia&quot;" classname="Cenário: Simples POST" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;data_entrada&quot; o valor &quot;2020-02-12&quot;" classname="Cenário: Simples POST" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;data_saida&quot; o valor &quot;2020-02-20&quot;" classname="Cenário: Simples POST" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;data_agendamento&quot; o valor &quot;2020-02-13&quot;" classname="Cenário: Simples POST" time="0"/>
@@ -95,7 +95,7 @@
   <testcase name="E o usuário gostaria de visualizar o processo com o id 666" classname="| 666 | nao encontrado |" time="0"/>
   <testcase name="Quando o usuário selecionar o botao visualizar" classname="| 666 | nao encontrado |" time="0"/>
   <testcase name="Então o usuário deve ver uma mensagem de &quot;nao encontrado&quot;" classname="| 666 | nao encontrado |" time="0"/>
-  <testcase name="| 666 | nao encontrado |" classname="| 666 | nao encontrado |" time="0.001"/>
+  <testcase name="| 666 | nao encontrado |" classname="| 666 | nao encontrado |" time="0"/>
   <testcase name="Dado que o usuário está na página de processos" classname="Cenário: Cenário: Simples PUT com todos os campos" time="0"/>
   <testcase name="E o usuário gostaria de visualizar o processo com o id 7" classname="Cenário: Cenário: Simples PUT com todos os campos" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;vara&quot; o valor &quot;8&quot;" classname="Cenário: Cenário: Simples PUT com todos os campos" time="0"/>
@@ -104,7 +104,7 @@
   <testcase name="E o usuário coloca no campo &quot;partes&quot; o valor &quot;Alberto x Alberta&quot;" classname="Cenário: Cenário: Simples PUT com todos os campos" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;urgente&quot; o valor &quot;S&quot;" classname="Cenário: Cenário: Simples PUT com todos os campos" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;arbitramento&quot; o valor &quot;N&quot;" classname="Cenário: Cenário: Simples PUT com todos os campos" time="0"/>
-  <testcase name="E o usuário coloca no campo &quot;assistente_social&quot; o valor &quot;Dayane Moreira&quot;" classname="Cenário: Cenário: Simples PUT com todos os campos" time="0"/>
+  <testcase name="E o usuário coloca no campo &quot;assistente_social&quot; o valor &quot;Silas Felipe Garcia&quot;" classname="Cenário: Cenário: Simples PUT com todos os campos" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;data_entrada&quot; o valor &quot;2020-02-12&quot;" classname="Cenário: Cenário: Simples PUT com todos os campos" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;data_saida&quot; o valor &quot;2020-02-20&quot;" classname="Cenário: Cenário: Simples PUT com todos os campos" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;data_agendamento&quot; o valor &quot;2020-02-13&quot;" classname="Cenário: Cenário: Simples PUT com todos os campos" time="0"/>
@@ -117,11 +117,11 @@
   <testcase name="Dado que o usuário está na página de processos" classname="Cenário: Cenário: Simples DELETE" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;vara&quot; o valor &quot;4&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;numero_processo&quot; o valor &quot;7823543&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
-  <testcase name="E o usuário coloca no campo &quot;natureza&quot; o valor &quot;Guarda&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
+  <testcase name="E o usuário coloca no campo &quot;natureza&quot; o valor &quot;Guarda&quot;" classname="Cenário: Cenário: Simples DELETE" time="0.001"/>
   <testcase name="E o usuário coloca no campo &quot;partes&quot; o valor &quot;Alberto x Alberta&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;urgente&quot; o valor &quot;S&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;arbitramento&quot; o valor &quot;N&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
-  <testcase name="E o usuário coloca no campo &quot;assistente_social&quot; o valor &quot;Dayane Moreira&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
+  <testcase name="E o usuário coloca no campo &quot;assistente_social&quot; o valor &quot;Silas Felipe Garcia&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;data_entrada&quot; o valor &quot;2020-02-12&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;data_saida&quot; o valor &quot;2020-02-20&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
   <testcase name="E o usuário coloca no campo &quot;data_agendamento&quot; o valor &quot;2020-02-13&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
@@ -131,7 +131,7 @@
   <testcase name="Quando o usuário selecionar o botao apagar" classname="Cenário: Cenário: Simples DELETE" time="0"/>
   <testcase name="Então o usuário deve ver uma mensagem de &quot;sem conteudo&quot;" classname="Cenário: Cenário: Simples DELETE" time="0"/>
   <testcase name="Cenário: Cenário: Simples DELETE" classname="Cenário: Cenário: Simples DELETE" time="0"/>
-  <testcase name="Given user would like to see people number 1" classname="Scenario: User would like to see information about Luke Skywalker" time="0"/>
+  <testcase name="Given user would like to see people number 1" classname="Scenario: User would like to see information about Luke Skywalker" time="0.001"/>
   <testcase name="When user clicks on find people button into Star Wars series" classname="Scenario: User would like to see information about Luke Skywalker" time="0"/>
   <testcase name="Then user should see &quot;success&quot; message" classname="Scenario: User would like to see information about Luke Skywalker" time="0"/>
   <testcase name="And user should see name with value &quot;Luke Skywalker&quot;" classname="Scenario: User would like to see information about Luke Skywalker" time="0"/>
@@ -152,7 +152,7 @@
   <testcase name="| 12317673 | not found |" classname="| 12317673 | not found |" time="0"/>
   <testcase name="Given user would like to save a user" classname="Scenario: User save a register with post" time="0"/>
   <testcase name="And user informs login with value equal &quot;stellaagapito&quot;" classname="Scenario: User save a register with post" time="0"/>
-  <testcase name="And user informs full_name with value equal &quot;Stella da Silva Agapito Correa&quot;" classname="Scenario: User save a register with post" time="0"/>
+  <testcase name="And user informs full_name with value equal &quot;Stella da Silva Agapito Correa&quot;" classname="Scenario: User save a register with post" time="0.001"/>
   <testcase name="And user informs email with value equal &quot;stella.agapito@gmail.com&quot;" classname="Scenario: User save a register with post" time="0"/>
   <testcase name="And user informs age with value equal &quot;7&quot;" classname="Scenario: User save a register with post" time="0"/>
   <testcase name="When user clicks on save button" classname="Scenario: User save a register with post" time="0"/>
@@ -192,32 +192,32 @@
   <testcase name="Then user should see &quot;success&quot; message" classname="Scenario: User update a register with put" time="0"/>
   <testcase name="Then user should see &quot;success&quot; message" classname="Scenario: User update a register with put" time="0"/>
   <testcase name="And user should see full_name with value &quot;Bug Luna da Silva Agapito Correa&quot;" classname="Scenario: User update a register with put" time="0"/>
-  <testcase name="Scenario: User update a register with put" classname="Scenario: User update a register with put" time="0"/>
+  <testcase name="Scenario: User update a register with put" classname="Scenario: User update a register with put" time="0.001"/>
   <testcase name="Scenario: User update a register with put" classname="Scenario: User update a register with put" time="0"/>
   <testcase name="Given user would like to save a user" classname="Scenario: User delete a register with delete" time="0"/>
   <testcase name="And user informs login with value equal &quot;Toti&quot;" classname="Scenario: User delete a register with delete" time="0"/>
   <testcase name="And user informs full_name with value equal &quot;Toti Agapito Correa&quot;" classname="Scenario: User delete a register with delete" time="0"/>
   <testcase name="And user informs email with value equal &quot;toti@gmail.com&quot;" classname="Scenario: User delete a register with delete" time="0"/>
-  <testcase name="And user informs age with value equal &quot;10&quot;" classname="Scenario: User delete a register with delete" time="0"/>
+  <testcase name="And user informs age with value equal &quot;10&quot;" classname="Scenario: User delete a register with delete" time="0.001"/>
   <testcase name="When user clicks on save button" classname="Scenario: User delete a register with delete" time="0"/>
   <testcase name="And user clicks on delete button" classname="Scenario: User delete a register with delete" time="0"/>
   <testcase name="Then user should see &quot;no content&quot; message" classname="Scenario: User delete a register with delete" time="0"/>
   <testcase name="Scenario: User delete a register with delete" classname="Scenario: User delete a register with delete" time="0"/>
-  <testcase name="Given user would like to save a user" classname="Scenario: User update a register with patch" time="0"/>
+  <testcase name="Given user would like to save a user" classname="Scenario: User update a register with patch" time="0.001"/>
   <testcase name="And user informs login with value equal &quot;bugluna&quot;" classname="Scenario: User update a register with patch" time="0"/>
   <testcase name="And user informs full_name with value equal &quot;Bug Luna Agapito Correa&quot;" classname="Scenario: User update a register with patch" time="0"/>
   <testcase name="And user informs email with value equal &quot;bug.luna@gmail.com&quot;" classname="Scenario: User update a register with patch" time="0"/>
   <testcase name="And user informs age with value equal &quot;8&quot;" classname="Scenario: User update a register with patch" time="0"/>
-  <testcase name="When user clicks on save button" classname="Scenario: User update a register with patch" time="0"/>
+  <testcase name="When user clicks on save button" classname="Scenario: User update a register with patch" time="0.001"/>
   <testcase name="And user informs full_name with value equal &quot;Bug Luna da Silva Agapito Correa&quot;" classname="Scenario: User update a register with patch" time="0"/>
   <testcase name="And user clicks on save button with only one change" classname="Scenario: User update a register with patch" time="0"/>
   <testcase name="And user wants to see user information" classname="Scenario: User update a register with patch" time="0"/>
   <testcase name="Then user should see &quot;success&quot; message" classname="Scenario: User update a register with patch" time="0"/>
   <testcase name="And user should see full_name with value &quot;Bug Luna da Silva Agapito Correa&quot;" classname="Scenario: User update a register with patch" time="0"/>
-  <testcase name="Scenario: User update a register with patch" classname="Scenario: User update a register with patch" time="0"/>
+  <testcase name="Scenario: User update a register with patch" classname="Scenario: User update a register with patch" time="0.001"/>
   <testcase name="Given user would like to save a user" classname="Scenario: Gravar um usuário" time="0"/>
   <testcase name="And user informs login with value equal &quot;JoanaDark1&quot;" classname="Scenario: Gravar um usuário" time="0"/>
-  <testcase name="And user informs age with value equal &quot;22&quot;" classname="Scenario: Gravar um usuário" time="0.001"/>
+  <testcase name="And user informs age with value equal &quot;22&quot;" classname="Scenario: Gravar um usuário" time="0"/>
   <testcase name="And user informs full_name with value equal &quot;Joana Dark&quot;" classname="Scenario: Gravar um usuário" time="0"/>
   <testcase name="And user informs email with value equal &quot;joana@impacta.com.br&quot;" classname="Scenario: Gravar um usuário" time="0"/>
   <testcase name="When user clicks on save button" classname="Scenario: Gravar um usuário" time="0"/>
